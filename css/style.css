@@ -1,6 +1,6 @@
 /* CSS Document */
 body{
-	background-color:#181818;
+	background-color:#1e1d18;
 }
 .main{
 	margin-right: auto;
@@ -8,7 +8,8 @@ body{
 }
 .main{
 	width:900px;
-	margin-top:120px;
+	margin-top:-20px;
+	margin-bottom:70px;
 }
 .main-content{
 	min-height1:500px;
@@ -16,7 +17,12 @@ body{
 }
 #home_name h1{
 	color:#F9F7F7;
-	font-size:75px;	
+	font-size:70px;	
+	text-align:center;
 	font-family:"Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", serif;
-	font-weight:100;
+}
+#defaultNavbar1{
+	float:right;
+	padding-right:180px;
+	font-size:18px;	
 }
