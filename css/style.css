@@ -1,6 +1,6 @@
 /* CSS Document */
 body{
-	background-color:#1e1d18;
+	background-color:#000000;
 }
 .main{
 	margin-right: auto;
@@ -10,6 +10,24 @@ body{
 	width:900px;
 	margin-top:-20px;
 	margin-bottom:70px;
+	color:#c7c4c4;
+	font-size:15px;
+}
+.main-content{
+	min-height: 500px;
+	padding-bottom: 100px;
+}
+.main p a{
+	color:#c7c4c4;	
+	font-style:italic;
+}
+.main h1{
+	color:#F8F8F8;	
+	font-size:34px;
+}
+.main h2{
+	color:#c7c4c4;	
+	font-size:18px;
 }
 .main-content{
 	min-height1:500px;
@@ -19,10 +37,19 @@ body{
 	color:#F9F7F7;
 	font-size:70px;	
 	text-align:center;
-	font-family:"Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", serif;
+	font-family1:"Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", serif;
 }
 #defaultNavbar1{
 	float:right;
-	padding-right:180px;
-	font-size:18px;	
+	padding-right:120px;
+	font-size:20px;	
+	color:#000000;
+}
+.img_left{
+	float:left;
+	margin:15px;	
+}
+.img_right{
+	float:right;
+	margin:15px;	
 }
