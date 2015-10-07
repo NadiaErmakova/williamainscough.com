@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="William Ainscough"/>
+<meta name="keywords" content="William Ainscough, William, Ainscough"/>
+<meta name="author" content="Nadia Ermakova | Web Development and Design"/>
 <link href="../css/bootstrap.css" rel="stylesheet">
 <link href="../css/style.css" rel="stylesheet">
 
@@ -40,7 +43,8 @@
     <div class="container">
      <div class="row">
         <div class="text-center col-md-6 col-md-offset-3">
-          <p>Copyright &copy; 2015 &middot; All Rights Reserved &middot; </p>
+          <p>Copyright &copy; 2015 &middot; All Rights Reserved &middot; <br/>
+          Developed by <a href="http://www.ermakova.ca/" target="_blank">ermakova.ca</a></p>
         </div>
       </div>
     </div>

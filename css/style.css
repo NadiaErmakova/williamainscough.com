@@ -1,6 +1,6 @@
 /* CSS Document */
 body{
-	background-color:#000000;
+	background-color:#090a05;
 }
 .main{
 	margin-right: auto;
@@ -9,13 +9,9 @@ body{
 .main{
 	width:900px;
 	margin-top:-20px;
-	margin-bottom:70px;
 	color:#c7c4c4;
-	font-size:15px;
-}
-.main-content{
-	min-height: 500px;
-	padding-bottom: 100px;
+	font-size:13px;
+	letter-spacing:1px;
 }
 .main p a{
 	color:#c7c4c4;	
@@ -23,21 +19,33 @@ body{
 }
 .main h1{
 	color:#F8F8F8;	
-	font-size:34px;
+	font-size:30px;
+	margin-bottom:20px;
 }
 .main h2{
 	color:#c7c4c4;	
 	font-size:18px;
 }
 .main-content{
-	min-height1:500px;
-	padding-bottom:100px;
+	min-height:800px;
+	padding-bottom:50px;
+}
+.row{
+	color:#5f5e5e;	
+}
+.row p a{
+	color:#5f5e5e;	
 }
 #home_name h1{
-	color:#F9F7F7;
-	font-size:70px;	
-	text-align:center;
-	font-family1:"Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", serif;
+	color:#e5e6e0;
+	font-family:Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', sans-serif; 
+	font-variant:small-caps; 
+	font-size:50px; 
+	float:left;
+	padding-left:30px;
+	margin-top:5px;
+	letter-spacing:7px;
+    word-spacing:5px;
 }
 #defaultNavbar1{
 	float:right;
@@ -52,4 +60,10 @@ body{
 .img_right{
 	float:right;
 	margin:15px;	
+}
+#video{
+	padding:20px; 
+	padding-left:50px; 
+	margin-top:30px;
+	border:1px solid #333;
 }
