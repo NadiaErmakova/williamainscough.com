@@ -7,45 +7,59 @@
 <meta name="description" content="William Ainscough"/>
 <meta name="keywords" content="William Ainscough, William, Ainscough"/>
 <meta name="author" content="Nadia Ermakova | Web Development and Design"/>
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>William Ainscough</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
+<script>
+	if(document.documentElement){
+		document.documentElement.className += " homepage";
+	}
+</script>
 <!-- InstanceEndEditable -->
 </head>
 
 <body>
     <nav class="navbar navbar-default">
-      <div class="container"> 
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-        </div>
+	    <div class="container"> 
+        
+            <div class="navbar-header">
+    	       <a class="navbar-brand hidden-homepage" href="index.html">
+	    	    	<!--img alt="William Ainscough" src="...s"-->
+                    <div id="home_name">
+                        <h1>WilliamAinscough<span style="color:red;">.</span>com</h1>
+                    </div>
+			   </a>
+            
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>    
 
-        <div class="collapse navbar-collapse" id="defaultNavbar1">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="demo.html">Demo</a></li>
-			<li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
+            <div class="collapse navbar-collapse" id="defaultNavbar1">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="demo.html">DEMO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
 
-      </div>
-    </nav>
+        </div>    
+    </nav> 
     
 	<div class="main-content">
 
 	<!-- InstanceBeginEditable name="Page" -->
     
-        <div class="container-fluid">
+        <div class="container">
         
             <div class="main">  
         
-        
-                <img src="images/w_ainscough.jpg" height="600" title=" William Ainscough">
+        		<div id="home_slide">
+	                <img src="images/w_ainscough_home_collage.png" width="900" title=" William Ainscough">
+                </div>
                 <div id="home_name">
 					<h1>William Ainscough</h1>
                 </div>
@@ -58,13 +72,13 @@
     <div class="container">
      <div class="row">
         <div class="text-center col-md-6 col-md-offset-3">
-          <p>Copyright &copy; 2015 &middot; All Rights Reserved &middot; <br/>
+          <p>Copyright &copy; 2015 &middot; All Rights Reserved <br/>
           Developed by <a href="http://www.ermakova.ca/" target="_blank">ermakova.ca</a></p>
         </div>
       </div>
     </div>
 
 	<script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 <!-- InstanceEnd --></html>

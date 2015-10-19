@@ -1,33 +1,33 @@
 /* CSS Document */
+
+.homepage .hidden-homepage{
+	display:none;
+}
+
 body{
-	background-color:#090a05;
+	background-color:#eeeeee;
 }
 .main{
-	margin-right: auto;
-	margin-left: auto;
-}
-.main{
-	width:900px;
-	margin-top:-20px;
-	color:#c7c4c4;
+	color:#5f5e5e;
 	font-size:13px;
 	letter-spacing:1px;
 }
 .main p a{
-	color:#c7c4c4;	
+	color:#5f5e5e;	
 	font-style:italic;
 }
 .main h1{
-	color:#F8F8F8;	
+	color:#5f5e5e;	
 	font-size:30px;
 	margin-bottom:20px;
+	margin-left:10px;
 }
 .main h2{
-	color:#c7c4c4;	
+	color:#5f5e5e;	
 	font-size:18px;
 }
 .main-content{
-	min-height:800px;
+	min-height:700px;
 	padding-bottom:50px;
 }
 .row{
@@ -37,29 +37,49 @@ body{
 	color:#5f5e5e;	
 }
 #home_name h1{
-	color:#e5e6e0;
+	color:#999;
 	font-family:Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', sans-serif; 
 	font-variant:small-caps; 
 	font-size:50px; 
-	float:left;
-	padding-left:30px;
-	margin-top:5px;
+	text-align:center;
 	letter-spacing:7px;
     word-spacing:5px;
 }
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-default {
+    background-color: inherit;
+    border: 0;
+}
 #defaultNavbar1{
-	float:right;
-	padding-right:120px;
-	font-size:20px;	
-	color:#000000;
+	margin-top: 110px;
+	font-size:16px;	
+	background-color:#5f5e5e;
+	height:40px !important;
+}
+#defaultNavbar1 a{
+	color:#E7E5E5;
+}
+#defaultNavbar1 .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left:25px;
+	padding-right:25px;
+	letter-spacing:3px;	
 }
 .img_left{
 	float:left;
-	margin:15px;	
+	margin:15px 15px 0 0;	
 }
 .img_right{
 	float:right;
-	margin:15px;	
+	margin:15px 0 15px 15px;	
 }
 #video{
 	padding:20px; 
