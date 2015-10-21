@@ -51,6 +51,13 @@ body{
 	letter-spacing:7px;
     word-spacing:5px;
 }
+#title h1{
+	color:#999;
+	font-family:Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', sans-serif; 
+	font-variant:small-caps; 
+	font-size:50px; 
+	letter-spacing:7px;
+}
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
@@ -71,6 +78,9 @@ body{
 }
 #defaultNavbar1 a{
 	color:#E7E5E5;
+}
+#defaultNavbar1 a:hover{
+	color:red;
 }
 #defaultNavbar1 .navbar-nav>li>a {
     padding-top: 10px;
