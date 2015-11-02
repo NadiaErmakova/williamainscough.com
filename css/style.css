@@ -14,6 +14,11 @@ body{
 	text-align:justify;
 		
 }
+
+.title::first-letter { 
+    color: red;
+}
+
 .about{
 	text-indent: 20px;
 }
@@ -71,9 +76,6 @@ body{
 	float: none;
 	vertical-align: top;
 }
-.navbar .navbar-collapse {
-    text-align: center;
-}
 .navbar-default {
     background-color: inherit;
     border: 0;
@@ -83,6 +85,7 @@ body{
 	font-size:16px;	
 	background-color:#5f5e5e;
 	height:40px !important;
+    text-align: center;
 }
 #defaultNavbar1 a{
 	color:#E7E5E5;
